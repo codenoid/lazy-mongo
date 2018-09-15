@@ -20,10 +20,13 @@ class LazyMongo
 
     mongo_url = Qt::LineEdit.new "mongodb://127.0.0.1:27017/dbname/colname"
     data = Qt::TextEdit.new
+    logger = Qt::TextEdit.new
     file = Qt::FileDialog.new
 
     data.accept_rich_text = true
     data.undo_redo_enabled = true
+
+    logger.read_only = true
 
     layout << mongo_url << select_file << data << execute
 
@@ -63,6 +66,7 @@ class LazyMongo
                   database[database_name][collection_name].insert(document)
                 end
               end
+              data.text = "Success !"
             end
           end
         end
