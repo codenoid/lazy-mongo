@@ -2,7 +2,7 @@
 
 Mongo Insert raw data
 
-![Example](https://raw.githubusercontent.com/Mounyet/lazy-mongo/master/lazymongo.gif)
+![Example](https://raw.githubusercontent.com/Muonyet/lazy-mongo/master/lazymongo.gif)
 
 ## Installation
 
