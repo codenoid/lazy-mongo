@@ -1,0 +1,18 @@
+version: 1.0
+shards:
+  bindgen:
+    github: Papierkorb/bindgen
+    commit: 2f0886906b75a44110c7788388181bdc0983080f
+
+  mongo:
+    github: kalinon/mongo.cr
+    version: 0.1.1
+
+  qt5:
+    github: Papierkorb/qt5.cr
+    commit: 9dd7c2c4a1664fc0886d54a2ee69e4a7fa0bf63a
+
+  toka:
+    github: Papierkorb/toka
+    version: 0.1.2
+

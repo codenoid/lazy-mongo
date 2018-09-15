@@ -1,0 +1,20 @@
+name: lazy-mongo
+version: 0.1.0
+
+authors:
+  - codenoid <jihantoro8@gmail.com>
+
+dependencies:
+  qt5:
+    github: Papierkorb/qt5.cr
+    branch: master-ready-to-use
+  mongo:
+    github: kalinon/mongo.cr
+
+targets:
+  lazy-mongo:
+    main: src/lazy-mongo.cr
+
+crystal: 0.26.1
+
+license: MIT
