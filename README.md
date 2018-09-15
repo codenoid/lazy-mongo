@@ -2,6 +2,8 @@
 
 Mongo Insert raw data
 
+![Example](https://raw.githubusercontent.com/Mounyet/lazy-mongo/master/lazymongo.gif)
+
 ## Installation
 
 MongoC Driver
@@ -14,7 +16,7 @@ make
 sudo make install
 ```
 
-Qt & Install
+Qt5 & Install
 
 ```
 sudo apt-get install libsdl2-dev
